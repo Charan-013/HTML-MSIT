@@ -1,2 +1,2 @@
 # HTML-MSIT
-CReating Repo
+Creating Repo
