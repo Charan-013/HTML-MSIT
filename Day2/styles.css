@@ -24,7 +24,8 @@ footer {
 nav {
   background-color: black;
   text-align: center;
-  padding: 10px 0;
+  height: auto;
+
 }
 
 section {
@@ -38,7 +39,7 @@ section {
 h1,
 h2,
 h3 {
-  color: #3446c3;
+  color: #2038d4;
 }
 
 img {
@@ -51,8 +52,6 @@ nav ul {
   list-style-type: none;
   color: white;
   display: inline-block;
-  padding-top: 2px;
-  padding-bottom: 2px;
   padding-right: 40px;
   margin: 0;
 }
@@ -61,11 +60,50 @@ nav ul li {
   list-style-type: none;
   color: white;
   display: inline-block;
-  padding-right: 10px;
-  padding-left: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 18px;
+  padding: 10px;
 }
 
 nav ul li a{
   text-decoration: none;
   color: white;
+}
+
+nav ul li:hover {
+  color: white;
+  background: #404040;
+}
+.logo {
+  width: 8%;
+  height: 8%;
+}
+
+#curriculum {
+  text-align: justify;
+  padding: 25px;
+}
+
+.curriculum-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 54px;
+}
+
+.curriculum-item {
+  background-color: #f4f3f3 ;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+
+.overview-img {
+  width: 40%;
+}
+
+li{
+  padding: 3px;
 }
