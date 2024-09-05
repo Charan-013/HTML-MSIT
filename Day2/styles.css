@@ -2,7 +2,50 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  /* background-color: #f4f4f4;*/
+}
+
+.hero-section {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png");
+  background-size: flex;
+  background-position: center;
+  height: fill;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 10px;
+}
+
+.hero-overlay {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 150px;
+  text-align: center;
+  color: white;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.hero-overlay h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.hero-overlay p {
+  font-size: 1.2em;
+  margin-bottom: 28px;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
 }
 
 main {
@@ -25,7 +68,6 @@ nav {
   background-color: black;
   text-align: center;
   height: auto;
-
 }
 
 section {
@@ -36,9 +78,7 @@ section {
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
-h1,
-h2,
-h3 {
+h1,h2,h3 {
   color: #2038d4;
 }
 
@@ -66,15 +106,16 @@ nav ul li {
   padding: 10px;
 }
 
-nav ul li a{
+nav ul li a {
   text-decoration: none;
   color: white;
 }
 
 nav ul li:hover {
   color: white;
-  background: #404040;
+  background: #121bbc;
 }
+
 .logo {
   width: 8%;
   height: 8%;
@@ -92,7 +133,7 @@ nav ul li:hover {
 }
 
 .curriculum-item {
-  background-color: #f4f3f3 ;
+  background-color: #f4f3f3;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -104,6 +145,10 @@ nav ul li:hover {
   width: 40%;
 }
 
-li{
+li {
   padding: 3px;
+}
+
+header div h1 {
+  color: white;
 }
