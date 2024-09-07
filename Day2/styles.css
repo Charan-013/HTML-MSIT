@@ -152,3 +152,43 @@ li {
 header div h1 {
   color: white;
 }
+
+.honeycomb {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.hexagon {
+  width: 240px;
+  height: 225px;
+  background-color: #f4f4f4;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
+  clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
+}
+
+.hexagon span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  color: #2038d4;
+  font-size: 21px;
+  text-align: center;
+}
+
+.hexagon:hover {
+  background-color: yellow;
+  color: blue;
+}
+
+.hexagon:nth-child(odd) {
+  margin-top: 60px;
+}
