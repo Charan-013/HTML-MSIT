@@ -1,9 +1,11 @@
+/* General Body Styles */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+/* Hero Section Styles */
 .hero-section {
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/0/02/Computer_science_education.png");
   background-size: flex;
@@ -48,44 +50,26 @@ body {
   background-color: #0056b3;
 }
 
+/* Main Section Styles */
 main {
   background-color: #f4f4f4;
 }
 
+/* Header Styles */
 header {
   text-align: center;
   background-color: white;
 }
 
-footer {
-  background-color: #333;
+header div h1 {
   color: white;
-  text-align: center;
-  padding: 10px 20px;
 }
 
+/* Navigation Styles */
 nav {
   background-color: black;
   text-align: center;
   height: auto;
-}
-
-section {
-  padding: 20px;
-  background-color: white;
-  margin: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-h1,h2,h3 {
-  color: #2038d4;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 6px;
 }
 
 nav ul {
@@ -116,9 +100,13 @@ nav ul li:hover {
   background: #121bbc;
 }
 
-.logo {
-  width: 8%;
-  height: 8%;
+/* Section Styles */
+section {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 #curriculum {
@@ -149,10 +137,50 @@ li {
   padding: 3px;
 }
 
-header div h1 {
-  color: white;
+#video {
+  padding: 20px;
+  background-color: white;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
+#video p {
+  margin-top: 15px;
+  font-size: 1em;
+  color: #333;
+  text-align: justify;
+  margin: 10px;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+footer .social-media {
+  margin-top: 10px;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+footer .social-media img {
+  width: 35px;
+  height: 35px;
+  transition: transform 0.3s ease;
+}
+
+footer .social-media a:hover img {
+  transform: scale(1.2);
+}
+
+/* Hexagon Honeycomb Styles */
 .honeycomb {
   display: flex;
   justify-content: center;
@@ -171,7 +199,14 @@ header div h1 {
   justify-content: center;
   text-align: center;
   font-weight: bold;
-  clip-path: polygon(25% 6.7%, 75% 6.7%, 100% 50%, 75% 93.3%, 25% 93.3%, 0% 50%);
+  clip-path: polygon(
+    25% 6.7%,
+    75% 6.7%,
+    100% 50%,
+    75% 93.3%,
+    25% 93.3%,
+    0% 50%
+  );
 }
 
 .hexagon span {
@@ -191,4 +226,18 @@ header div h1 {
 
 .hexagon:nth-child(odd) {
   margin-top: 60px;
+}
+
+/* Heading Styles */
+h1,
+h2,
+h3 {
+  color: #2038d4;
+}
+
+/* Image Styles */
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
 }
